@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PPA</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="open_drawer">\"Open Draw\"</string>
+    <string name="close_drawer">\"Close Draw\"</string>
+</resources>

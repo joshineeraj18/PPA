@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".Change_PIN">
+
+
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_oldpin"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+        android:layout_margin="20dp"
+        android:hint="OLD PIN"
+        android:inputType="numberPassword"
+        android:textAlignment="center"
+        android:background="@drawable/edittextback"
+
+        android:ems="10"
+        android:letterSpacing="0.5"
+        android:textSize="34sp"
+        android:maxLength="4"
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_newpin1"
+        android:layout_centerHorizontal="true"
+        android:inputType="numberPassword"
+        android:layout_margin="20dp"
+        android:padding="5dp"
+        android:layout_below="@+id/et_oldpin"
+        android:background="@drawable/edittextback"
+        android:hint="NEW PIN"
+        android:textAlignment="center"
+        android:ems="10"
+        android:letterSpacing="0.5"
+        android:textSize="34sp"
+        android:maxLength="4"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_newpin2"
+        android:inputType="numberPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:padding="5dp"
+        android:layout_below="@+id/et_newpin1"
+        android:background="@drawable/edittextback"
+        android:hint="NEW PIN"
+        android:textAlignment="center"
+        android:ems="10"
+        android:letterSpacing="0.5"
+        android:textSize="34sp"
+        android:maxLength="4"/>
+
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_submit"
+        android:backgroundTint="@color/teal_200"
+        android:layout_below="@+id/et_newpin2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Submit"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".FormFill">
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_website"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+        android:layout_margin="20dp"
+        android:textSize="32sp"
+        android:hint="Website Name"
+        android:textAlignment="center"
+        android:background="@drawable/edittextback"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_username"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+        android:layout_below="@+id/et_website"
+        android:background="@drawable/edittextback"
+        android:layout_margin="20dp"
+        android:textSize="32sp"
+        android:hint="User Name"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_password"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+        android:layout_below="@+id/et_username"
+        android:background="@drawable/edittextback"
+        android:hint="Password"
+        android:layout_margin="20dp"
+        android:textSize="32sp"
+        android:textAlignment="center"/>
+
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_submit"
+        android:backgroundTint="@color/teal_200"
+        android:layout_below="@+id/et_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Submit"
+        />
+</RelativeLayout>
